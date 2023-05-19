@@ -1,0 +1,34 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: #6F27E0;
+    color: #ffffff;
+    font:libre baskerville;
+  }
+  
+  #ttl{
+    font: montserrat;
+    text-align: center;
+  }
+  h2 {
+    font-size: medium;
+  }
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .submit{
+    border-radius: 10px;
+    color:#66347F;
+    background-color: white;
+  }
+  
+  .reset{
+    border-radius: 10px;
+    color:#66347F;
+    background-color: white;
+  }
+  
