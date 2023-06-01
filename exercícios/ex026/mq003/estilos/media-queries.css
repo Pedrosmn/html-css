@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@media print {
+    /*Impressão*/
+
+    main {
+        border: 2px solid black;
+    }
+
+    main > img#phone {display: none;}
+    main > img#tablet {display: none;}
+    main > img#print {display: block;}
+    main > img#pc {display: none;}
+    main > img#tv {display: none;}
+
+    body h1 {
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        text-shadow: none;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /*Tablets*/
+    
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    main > img#phone {display: none;}
+    main > img#tablet {display: block;}
+    main > img#print {display: none;}
+    main > img#pc {display: none;}
+    main > img#tv {display: none;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    /*Telas média*/
+
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    main > img#phone {display: none;}
+    main > img#tablet {display: none;}
+    main > img#print {display: none;}
+    main > img#pc {display: block;}
+    main > img#tv {display: none;}
+
+}
+
+@media screen and (min-width: 1024px) {
+    /*Telas grande*/
+
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    main > img#phone {display: none;}
+    main > img#tablet {display: none;}
+    main > img#print {display: none;}
+    main > img#pc {display: none;}
+    main > img#tv {display: block;}
+}
