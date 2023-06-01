@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 481px) {
+
+    header menu {
+        display: block;
+    }
+
+    menu a {
+        display: inline-block;
+        margin: 4px;
+        border: none;
+    }
+
+    menu ul {
+        list-style-type: none;
+    }
+
+    header span#burguer {
+        display: none;
+    }
+
+    main {
+        max-width: 600px;
+    }
+}

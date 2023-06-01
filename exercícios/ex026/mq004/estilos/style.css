@@ -8,6 +8,7 @@
 
 body {
     background-image: linear-gradient(to bottom, #8F802F, #DBCC74);
+    height: 100vh;
 }
 
 header {
@@ -29,7 +30,7 @@ header span#burguer {
     background-color: #443D8F;
 }
 
-header ul {
+header > menu {
     list-style-type: none;
     display: none;
 }
